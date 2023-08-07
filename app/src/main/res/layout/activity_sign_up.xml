@@ -11,7 +11,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="50dp"
-        android:layout_marginTop="30dp"
+        android:layout_marginTop="15dp"
         android:text="이름"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
@@ -90,12 +90,13 @@
 
     <ImageView
         android:id="@+id/imageView3"
-        android:layout_width="252dp"
-        android:layout_height="163dp"
+        android:layout_width="347dp"
+        android:layout_height="233dp"
         android:layout_marginTop="20dp"
+        android:scaleType="center"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/dia" />
+        app:srcCompat="@drawable/grandmaster" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

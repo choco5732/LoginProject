@@ -1,14 +1,10 @@
 package com.android.personalproject2_login
 
-import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.widget.Button
 import android.widget.ImageView
 import android.widget.TextView
 import androidx.constraintlayout.widget.ConstraintLayout
-import androidx.constraintlayout.widget.ConstraintSet.Layout
-import org.w3c.dom.Text
 import java.util.Random
 
 class HomeActivity : AppCompatActivity() {
@@ -36,11 +32,11 @@ class HomeActivity : AppCompatActivity() {
             1 -> imageView2.setImageResource(R.drawable.bronze)
             2 -> imageView2.setImageResource(R.drawable.silver)
             3 -> imageView2.setImageResource(R.drawable.gold)
-            4 -> imageView2.setImageResource(R.drawable.pla)
+            4 -> imageView2.setImageResource(R.drawable.platinum)
             5 -> imageView2.setImageResource(R.drawable.dia)
-            6 -> imageView2.setImageResource(R.drawable.mater)
-            7 -> imageView2.setImageResource(R.drawable.gmaster)
-            8 -> imageView2.setImageResource(R.drawable.mater)
+            6 -> imageView2.setImageResource(R.drawable.master)
+            7 -> imageView2.setImageResource(R.drawable.grandmaster)
+            8 -> imageView2.setImageResource(R.drawable.challenger)
         }
     }
 }
